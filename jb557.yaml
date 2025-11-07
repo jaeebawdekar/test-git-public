@@ -4,6 +4,6 @@
   vars:
     app_version: "1.0.0"
   tasks:
-    - name: Show where we are deploying
+    - name: Show where we are deploying here1
       debug:
         msg: "Deploying version {{ app_version }} to {{ inventory_hostname }}"
